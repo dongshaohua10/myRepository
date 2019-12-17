@@ -27,6 +27,7 @@ def index(request):
 #列表页
 def list(request,lid):
     list = Article.objects.filter(category__id=lid).order_by('-id')
+    cName = Category.objects.get(pk=lid)
     allCategory = Category.objects.all()
     hotArticle = Article.objects.all().order_by('-views')[:10]
     tags = Tag.objects.all()

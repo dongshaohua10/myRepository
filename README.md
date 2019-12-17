@@ -1,2 +1,0 @@
-# myRepository
-git test

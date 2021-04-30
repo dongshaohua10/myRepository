@@ -24,7 +24,7 @@ six==1.13.0
 snapshot-selenium==0.0.2
 sqlparse==0.3.0
 toml==0.10.0
-urllib3==1.25.3
+urllib3==1.25.8
 virtualenv==16.7.2
 xlrd==1.2.0
 xmltodict==0.12.0
